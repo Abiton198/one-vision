@@ -1,5 +1,5 @@
 import React from 'react'
-// import logo from '../img/logo-mahad.jpg'
+import logo from '../img/logo_onevision.jpg'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
@@ -7,8 +7,8 @@ export default function Navbar() {
     <>
         <nav className='navbar bg-secondary navbar-dark text-light navbar-expand-lg fixed-top'>
             <a href='#' className='navbar-brand'>
-                <img src='' alt='One Vision Logo' width='90px'  className='mr-3'/> 
-                    ONE VISION (SA)
+                <img src={logo} alt='One Vision Logo' width='90px'  className='mr-3'/> 
+                    ONE VISION CHURCH (SA)
                       </a>
 
     {/* button with humburger */}
@@ -31,9 +31,6 @@ export default function Navbar() {
                         <Link to='/Projects' className='nav-link'>Projects</Link>
                     </li>
 
-                    <li className='navbar-item'>
-                        <Link to='/School' className='nav-link'>School</Link>
-                    </li>
 
                     <li className='navbar-item'>
                         <Link to='/Sermons' className='nav-link'>Sermons</Link>
