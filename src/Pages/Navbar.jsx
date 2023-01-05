@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <>
-        <nav className='navbar bg-secondary navbar-dark text-light navbar-expand-lg fixed-top'>
+        <nav className='navbar bg-info navbar-dark text-light navbar-expand-lg fixed-top'>
             <a href='#' className='navbar-brand'>
                 <img src={logo} alt='One Vision Logo' width='90px'  className='mr-3'/> 
                     ONE VISION CHURCH (SA)

@@ -1,4 +1,5 @@
 import React from 'react'
+import david from '../img/david.png'
 
 export default function Home() {
   return (
@@ -36,6 +37,11 @@ export default function Home() {
                   </div>
               </div>
 
+                              <div className='border m-5'>
+                                <img src={david} alt='david' className='rounded-circle'/>
+                              </div>
+
+                              <h3 className='font-weight-bold'>ONE HOPE. ONE HEART. ONE HARVEST</h3>
                         </div>
 
           <div className='col-sm-6 home-img'>
