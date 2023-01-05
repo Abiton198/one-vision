@@ -37,7 +37,7 @@ export default function Home() {
                   </div>
               </div>
 
-                              <div className='border m-5'>
+                              <div className='border p-2'>
                                 <img src={david} alt='david' className='rounded-circle'/>
                               </div>
 

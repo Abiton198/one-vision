@@ -7,10 +7,9 @@ export default function Navbar() {
     <>
         <nav className='navbar bg-info navbar-dark text-light navbar-expand-lg fixed-top'>
             <a href='#' className='navbar-brand'>
-                <img src={logo} alt='One Vision Logo' width='90px'  className='mr-3'/> 
-                    ONE VISION CHURCH (SA)
-                      </a>
-
+                <img src={logo} alt='One Vision Logo' width='70px'  className='mt-3'/> 
+                       </a>
+                <p> ONE VISION CHURCH (SA)</p>
     {/* button with humburger */}
             <button className='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>
                 <span className='navbar-toggler-icon'></span>
