@@ -38,7 +38,7 @@ export default function Home() {
               </div>
 
                               <div className=' p-1'>
-                                <img src={david} alt='david' className='rounded-circle'/>
+                                <img src={david} alt='david' className='rounded-circle rounded mx-auto d-block'/>
                               </div>
 
                               <h3 className='font-weight-bold'>ONE HOPE. ONE HEART. ONE HARVEST</h3>
