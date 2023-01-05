@@ -1,5 +1,6 @@
 import React from 'react'
 import david from '../img/david.png'
+import home from '../img/home.jpg'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <div className='col-sm-6'>
 
               {/* button to trigger the modal */}
-         <button className='btn btn-primary mt-4 ml-1' data-toggle='modal' data-target='#myModal'>
+         <button className='btn btn-primary mt-4 ml-1 mb-3' data-toggle='modal' data-target='#myModal'>
             Launch Modal
             </button>
 
@@ -38,14 +39,16 @@ export default function Home() {
               </div>
 
                               <div className=' p-1'>
-                                <img src={david} alt='david' className='rounded-circle rounded mx-auto d-block'/>
+                                <img src={david} alt='david' className='rounded-circle rounded mx-auto d-block' />
                               </div>
 
-                              <h3 className='font-weight-bold'>ONE HOPE. ONE HEART. ONE HARVEST</h3>
+                              <div className='font-weight-bold text-justify p-5'>
+                                <p className='p-2'>ONE HOPE.<br/> ONE HEART.<br/>ONE HARVEST.<br/>
+                                  </p>  </div>
                         </div>
 
           <div className='col-sm-6 home-img'>
-        
+          <img src={home} alt='david'  className='home-image' />
           </div>
 
 
